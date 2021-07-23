@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+    
+}
+
+html,body{
+    height: 100%;
+    
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    padding: 0.3%;
+    height: 60px;
+    color: white;
+    background-color: black ;
+
+}
+
+.header-title{
+    color: rgb(230, 240, 98);
+    font-size: 50px;
+    text-align:center;
+}
+
+.container-banner{
+    width: 100%;
+    padding: 0.2%;
+    height: 557px;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > center {
+    height: 100%;
+}
+.form{
+    padding: 20px;
+    width: 400px;
+    height: calc(100%+10px);
+    float: right;
+    position: relative;
+    top: -15px;
+    background-color: white;
+    border-width: 12px;
+    border-color: rgba(120, 120, 120, 0.5);
+    border-style: solid;
+    background-clip: padding-box;
+
+}
+.form > h2 {
+    font-weight: normal;
+    color: gray;
+    font-size: 19.5px;
+}
+
+.form-control{
+    margin-bottom: 16px;
+
+}
+
+.container-2 {
+    padding: 70px 2%;
+    color:white;
+    background-color: black;
+    text-align:center;
+}
+
+.container-2 > p{
+    width: 100%;
+    max-width: 900px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+
+}
+
+.container-banner-2{
+    width: 100%;
+    padding: 0.2%;
+    height: 557px;
+    background-image: url('../imgs/img5.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.container-banner-3{
+    width: 100%;
+    padding: 0.2%;
+    height: 557px;
+    background-image: url('../imgs/img4.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-banner-3-1{
+    width: 100%;
+    padding: 0.2%;
+    height: 557px;
+    background-image: url('../imgs/img7.jpg');
+    background-size: cover;
+    background-position: right;
+
+}
+
+
+.container-banner-4{
+    width: 100%;
+    padding: 0.2%;
+    height: 557px;
+    background-image: url('../imgs/img6.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.info-footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: #1F1F1F;
+    color:white;
+    
+    margin:0px;
+    
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    background-color: #1F1F1F;
+    color:white;
+    
+    margin:0px;
+}
